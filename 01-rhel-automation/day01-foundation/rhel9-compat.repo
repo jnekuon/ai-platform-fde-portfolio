@@ -1,0 +1,11 @@
+[rhel9-compat-baseos]
+name=RHEL 9 Compatible BaseOS
+baseurl=https://repo.almalinux.org/almalinux/9/BaseOS/x86_64/os/
+enabled=1
+gpgcheck=0
+
+[rhel9-compat-appstream]
+name=RHEL 9 Compatible AppStream
+baseurl=https://repo.almalinux.org/almalinux/9/AppStream/x86_64/os/
+enabled=1
+gpgcheck=0
