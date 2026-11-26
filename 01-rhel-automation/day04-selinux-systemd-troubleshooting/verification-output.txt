@@ -1,0 +1,12 @@
+=== SELINUX STATUS & CONTEXT ===
+Enforcing
+unconfined_u:object_r:bin_t:s0 /opt/fde-ai-worker/worker.sh
+
+=== SYSTEMD SERVICE STATUS ===
+active
+enabled
+
+=== WORKER LOG OUTPUT ===
+2026-11-26T09:58:10-06:00 [INFO] FDE AI Inference Worker healthy - GPU/CPU check OK
+2026-11-26T09:58:40-06:00 [INFO] FDE AI Inference Worker healthy - GPU/CPU check OK
+2026-11-26T09:59:10-06:00 [INFO] FDE AI Inference Worker healthy - GPU/CPU check OK
